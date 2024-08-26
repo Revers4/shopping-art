@@ -15,7 +15,6 @@
 
 <body>
   <header>
-    <div class="test">test</div>
     <section class="header-top">
       <nav class="navbar navbar-default">
         <div class="container">
@@ -35,7 +34,7 @@
               <li><a href="#">article</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false"><img src="img/flag.jpg" alt="">
+                  aria-expanded="false"><img class="flag" src="img/flag.jpg" alt="">
                   english<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">english</a></li>
@@ -118,16 +117,12 @@
           <div class="item active">
             <div class="slider-bg"></div>
             <div class="carousel-caption">
-              <div class="container">
-                <div>
                   <h1 class="text-center">Women's Apparel
                   </h1>
                   <p class="text-center">T-Shirts, Dress Shirts, Tanks,
                     Pants and More...</p>
-                  <button class="btn btn-default navbar-btn btn-danger center-block">Shop Women's
+                  <button class="btn btn-default navbar-btn btn-danger">Shop Women's
                     Apparel</button>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -135,9 +130,13 @@
     </section>
   </header>
   <section class="border-bottom">
-    <article class="container ">
-      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-    </article>
+    <div class="container">
+      <div class="row">
+        <article class="col-md-12">
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+        </article>
+      </div>
+    </в>
   </section>
   <div class="bg-grey">
     <div class="container">
@@ -149,10 +148,12 @@
                 Items on Demand
               </h2>
             </div>
-            <div class="clearfix"></div>
+          </div>
+          <div class="row">
             <div class="col-md-4">
               <div class="panel panel-default">
                 <div class="panel-body">
+                  <div class="heart-hover"></div>
                   <img src="img/goods1.jpg" alt="">
                   <section class="panel-caption">
                     <h2>cream jane jeans dress</h2>
@@ -168,6 +169,8 @@
             <div class="col-md-4">
               <div class="panel panel-default">
                 <div class="panel-body">
+                  <div class="heart-hover"></div>
+                  <div class="sale">SALE</div>
                   <img src="img/goods2.jpg" alt="">
                   <section class="panel-caption">
                     <h2>cream sissi tunic</h2>
@@ -183,6 +186,7 @@
             <div class="col-md-4">
               <div class="panel panel-default">
                 <div class="panel-body">
+                  <div class="heart-hover"></div>
                   <img src="img/goods3.jpg" alt="">
                   <section class="panel-caption">
                     <h2>big doodle shawl - blue/black</h2>
@@ -195,16 +199,20 @@
                 </div>
               </div>
             </div>
-            <div class="clearfix hidden-sm"></div>
+          </div>
+          <div class="row">
             <div class="col-md-12">
               <h2 class="main-heading">
                 Items on Demand
               </h2>
             </div>
-            <div class="clearfix"></div>
+          </div>
+          <div class="row">
             <div class="col-md-4">
               <div class="panel panel-default">
                 <div class="panel-body">
+                  <div class="heart-hover"></div>
+                  <div class="sale">SALE</div>
                   <img src="img/goods4.jpg" alt="">
                   <section class="panel-caption">
                     <h2>cream sissi tunic</h2>
@@ -220,6 +228,7 @@
             <div class="col-md-4">
               <div class="panel panel-default">
                 <div class="panel-body">
+                  <div class="heart-hover"></div>
                   <img src="img/goods5.jpg" alt="">
                   <section class="panel-caption">
                     <h2>big doodle shawl - blue/black</h2>
@@ -235,7 +244,89 @@
             <div class="col-md-4">
               <div class="panel panel-default">
                 <div class="panel-body">
+                  <div class="heart-hover"></div>
                   <img src="img/goods6.jpg" alt="">
+                  <section class="panel-caption">
+                    <h2>big doodle shawl - blue/black</h2>
+                    <p>Lightweight with just a hint of sheer color, this</p>
+                  </section>
+                  <div class="panel-body__bottom">
+                    <span>Price: €09.00</span>
+                    <button>add to cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="panel panel-default panel-banner">
+                <div class="panel-body">
+                  <div class="main__banner-bg-1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="panel panel-default panel-banner">
+                <div class="panel-body">
+                  <div class="main__banner-bg-2"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="panel panel-default panel-banner">
+                <div class="panel-body">
+                  <div class="main__banner-bg-3"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="main-heading">
+                Latest Arrivals
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <div class="heart-hover"></div>
+                  <img src="img/goods7.jpg" alt="">
+                  <section class="panel-caption">
+                    <h2>cream sissi tunic</h2>
+                    <p>Lightweight with just a hint of sheer color, this</p>
+                  </section>
+                  <div class="panel-body__bottom">
+                    <span>Price: €20.00</span>
+                    <button>add to cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <div class="heart-hover"></div>
+                  <div class="sale">SALE</div>
+                  <img src="img/goods8.jpg" alt="">
+                  <section class="panel-caption">
+                    <h2>big doodle shawl - blue/black</h2>
+                    <p>Lightweight with just a hint of sheer color, this</p>
+                  </section>
+                  <div class="panel-body__bottom">
+                    <span>Price: €09.00</span>
+                    <button>add to cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <div class="heart-hover"></div>
+                  <img src="img/goods9.jpg" alt="">
                   <section class="panel-caption">
                     <h2>big doodle shawl - blue/black</h2>
                     <p>Lightweight with just a hint of sheer color, this</p>
@@ -253,7 +344,7 @@
           <div class="row">
             <div class="col-md-12 col-sm-6 border-bottom">
               <h2 class="aside-heading">Popular Categories</h2>
-              <ul>
+              <ul class="categories-list">
                 <ol>
                   <span>
                     Performance Collection
@@ -304,7 +395,7 @@
             <div class="clearfix hidden-sm"></div>
             <div class="col-md-12 col-sm-6 border-bottom">
               <h2 class="aside-heading">Popular Brands</h2>
-              <ul>
+              <ul class="categories-list">
                 <ol>
                   <span>
                     Ashworth
@@ -352,20 +443,22 @@
                 </ol>
               </ul>
             </div>
-            <div class="clearfix"></div>
+          </div>
+          <div class="row">
             <div class="col-md-12 col-sm-6">
               <div id="slide-sidebar" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                   <div class="item active">
-                    <img src="img/slide-sidebar1.jpg" alt="...">
+                    <div class="slide-sidebar__bg-1"></div>
                     <div class="carousel-caption">
+                      <h2>Fashion Colors For Women</h2>
                       <p>
                         Make every category of your webstore look special by setting different color schemes.
                       </p>
                     </div>
                   </div>
                   <div class="item">
-                    <img src="img/slide-sidebar2.jpg" alt="...">
+                    <div class="slide-sidebar__bg-2"></div>
                     <div class="carousel-caption">
                       ...
                     </div>
@@ -379,14 +472,166 @@
               </div>
             </div>
             <div class="clearfix hidden-sm"></div>
-            <div class="col-md-12 col-sm-6">4</div>
-            <div class="clearfix"></div>
-            <div class="col-md-12">5</div>
+            <div class="col-md-12 col-sm-6">
+              <figure class="aside__banner">
+                <div class="banner-bg"></div>
+                <figcaption>
+                  <h2>introducing</h2>
+                  <h1>bombshell</h1>
+                  <h2>forever</h2>
+                </figcaption>
+                <button class="btn btn-default btn-danger">SHOP NOW</button>
+              </figure>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="about-block">
+                <h2 class="aside-heading">About Store</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                <p class="color_blue">Ut enim ad minim veniam, quis nostrud exercitation. Aiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+              </div>
+            </div>
           </div>
         </aside>
       </div>
     </div>
   </div>
+  <section class="form-section border-bottom">
+    <div class="container">
+      <form class="form-inline">
+        <div class="form-group form-text">
+          <h3>Get Discounts and Free Offers</h3>
+          <p>Get free coupens, discounts and new arivals</p>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="InputName">your full name</label>
+          <input type="text" class="form-control" id="InputName" placeholder="your full name">
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="InputEmail">your email address</label>
+          <input type="email" class="form-control" id="InputEmail" placeholder="your email address">
+        </div>
+        <button type="submit" class="btn btn-default">Subcribe</button>
+      </form>
+    </div>
+  </section>
+  <section class="partner-list">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="slider">
+            <img class="arrow" src="img/arrow-left.png" alt="">
+            <ul>
+              <li>
+                <img src="img/partner1.jpg" alt="">
+              </li>
+              <li>
+                <img src="img/Layer 27.png" alt="">
+              </li>
+              <li>
+                <img src="img/Layer 31.png" alt="">
+              </li>
+              <li>
+                <img src="img/partner4.jpg" alt="">
+              </li>
+              <li>
+                <img src="img/partner5.jpg" alt="">
+              </li>
+              <li>
+                <img src="img/partner6.jpg" alt="">
+              </li>
+            </ul>
+            <img class="arrow" src="img/arrow-right.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <section class="footer-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 col-sm-6">
+        <h2 class="footer_header">Help & Info</h2>
+        <ul>
+          <li>Delivery</li>
+          <li>Returns & Refunds</li>
+          <li>Contact Us</li>
+          <li>Track your Order</li>
+          <li>Reglaze Service</li>
+          <li>Lens Price Comparison</li>
+          <li>A - Z Brands</li>
+          <li>FAQ's</li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 castom-padding">
+        <h2 class="footer_header">Brands we sell</h2>
+        <ul>
+          <li>Noosa Amsterdam</li>
+          <li>Cream Clothing</li>
+          <li>Taschendieb</li>
+          <li>Hermes paris</li>
+          <li>D&G Fashion</li>
+        </ul>
+      </div>
+      <div class="clearfix visible-sm"></div>
+      <div class="col-md-3 col-sm-6">
+        <h2 class="footer_header">Care & advice</h2>
+        <ul>
+          <li>Prescription Information</li>
+          <li>Lenses & Coatings</li>
+          <li>PD Measurement</li>
+          <li>Style Advice</li>
+          <li>Size Guide</li>
+          <li>Shopping Guide</li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-6">
+        <h2 class="footer_header">Company</h2>
+        <ul>
+          <li>About Us</li>
+          <li>Our Store</li>
+          <li>Terms & Conditions</li>
+          <li>Privacy Policy</li>
+          <li>Cookies</li>
+          <li>Find us</li>
+        </ul>
+      </div>
+      <div class="clearfix visible-sm"></div>
+      <div class="col-md-2">
+        <h2 class="footer_header">Follow us</h2>
+        <figure>
+          <img src="img/fb.jpg" alt="">
+          <img src="img/tw.jpg" alt="">
+          <img src="img/fl.jpg" alt="">
+        </figure>
+      </div>
+    </div>
+  </div>
+  </section>
+    <section class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <p>© 2014 Fashion Store. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-6 col-md-offset-3">
+            <figure class="footer-bottom__pay-list">
+              <img src="img/pay1.jpg" alt="">
+              <img src="img/pay2.jpg" alt="">
+              <img src="img/pay3.jpg" alt="">
+              <img src="img/pay4.jpg" alt="">
+              <img src="img/pay5.jpg" alt="">
+              <img src="img/pay6.jpg" alt="">
+              <img src="img/pay7.jpg" alt="">
+              <img src="img/pay8.jpg" alt="">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/bootstrap.js"></script>
 </body>
